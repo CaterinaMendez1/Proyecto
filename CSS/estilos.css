@@ -23,7 +23,7 @@ header {
   color: black; }
 
 a.nav-link {
-  color: black; }
+  color: #111111; }
 
 main {
   padding: 20px;
@@ -139,12 +139,32 @@ main {
 @media screen and (max-width: 680px) {
   .titulo {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    background: linear-gradient(to right, #870000, #b60202); } }
 
+@media screen and (max-width: 680px) {
+  a.nav-link {
+    color: white; } }
+
+/*--------------Responsive Footer---------------------*/
 @media screen and (max-width: 680px) {
   .redes {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #870000, #b60202); } }
+
+@media screen and (max-width: 680px) {
+  .imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 680px) {
+  .redes__ {
+    justify-content: center;
+    display: flex; } }
 
 /*--------------Responsive Contacto--------------------*/
 @media screen and (max-width: 680px) {
@@ -169,3 +189,12 @@ main {
   .carousel-imag {
     width: 300px;
     height: 300px; } }
+
+@media screen and (max-width: 680px) {
+  .carousel__titulo {
+    font-family: 'Itim', cursive;
+    color: red;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
