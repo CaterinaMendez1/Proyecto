@@ -56,6 +56,9 @@ main {
   min-height: 100vh;
   min-width: 100vw; }
 
+.input_ {
+  width: 90%; }
+
 /*--------------Responsive Contacto--------------------*/
 @media screen and (max-width: 680px) {
   .contacto_flex {
