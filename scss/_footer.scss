@@ -1,0 +1,49 @@
+/*---------------Footer----------------*/
+
+.redes{
+    background: linear-gradient(to right, #870000, #b60202);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1 rem;
+    color: black;
+    padding: 20px;
+    height: 100%;
+}
+
+
+/*--------------Responsive Footer---------------------*/
+
+@media screen and (max-width:680px) {
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #870000, #b60202);
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .imagen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .redes__{
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:680px) {
+    footer div{
+        padding: 2px;
+    }
+}

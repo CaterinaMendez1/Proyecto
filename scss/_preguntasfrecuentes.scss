@@ -1,0 +1,21 @@
+/*-----------------Preguntas Frecuentes------------------*/
+
+.menu_preguntas{
+    background-color: rgb(255, 83, 83);
+    padding: 20px 30px;
+}
+
+
+.menu__{
+    font-family: 'Itim', cursive;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 1.5rem;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.menu__ div{
+    border: 2px solid rgb(255, 83, 83);;
+}
