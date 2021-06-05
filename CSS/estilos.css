@@ -44,8 +44,10 @@
   flex-direction: row;
   justify-content: space-evenly; }
 
-.contacto {
-  padding: 20px; }
+.contacto__ {
+  display: flex;
+  flex-direction: column;
+  padding: 5px; }
 
 .contacto_mapa {
   padding: 20px; }
@@ -53,12 +55,6 @@
 main {
   min-height: 100vh;
   min-width: 100vw; }
-
-.contacto__ {
-  padding: 10px; }
-
-input {
-  width: 95%; }
 
 /*--------------Responsive Contacto--------------------*/
 @media screen and (max-width: 680px) {

@@ -5,8 +5,10 @@
     justify-content: space-evenly;
 }
 
-.contacto{
-    padding: 20px;
+.contacto__{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 }
 
 .contacto_mapa{
@@ -18,13 +20,6 @@ main{
     min-width: 100vw;
 }
 
-.contacto__{
-    padding: 10px;
-}
-
-input{
-    width: 95%;
-}
 
 /*--------------Responsive Contacto--------------------*/
 
