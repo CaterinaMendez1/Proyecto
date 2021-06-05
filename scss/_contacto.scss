@@ -15,10 +15,15 @@
 }
 main{
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .contacto__{
     padding: 10px;
+}
+
+input{
+    width: 95%;
 }
 
 /*--------------Responsive Contacto--------------------*/
@@ -29,4 +34,6 @@ main{
         flex-direction: column;
         align-items: center;
     }
+
+    
 }

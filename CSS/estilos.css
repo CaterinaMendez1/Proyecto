@@ -51,10 +51,14 @@
   padding: 20px; }
 
 main {
-  min-height: 100vh; }
+  min-height: 100vh;
+  min-width: 100vw; }
 
 .contacto__ {
   padding: 10px; }
+
+input {
+  width: 95%; }
 
 /*--------------Responsive Contacto--------------------*/
 @media screen and (max-width: 680px) {
